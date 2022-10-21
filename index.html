@@ -12,45 +12,46 @@
     <title>Google page</title>
   </head>
   <body>
-    <nav>
-      <div>
-        <a href="#">Google 정보</a>
-        <a href="#">스토어</a>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a class="nav-item" href="#">Google 정보</a>
+        <a class="nav-item" href="#">스토어</a>
       </div>
-      <div>
-        <a href="">Gmail</a>
-        <a href="">이미지</a>
-        <i class="fa-solid fa-bars"></i>
+      <div class="navbar-right">
+        <a class="nav-item" href="">Gmail</a>
+        <a class="nav-item" href="">이미지</a>
+        <i class="fa-solid fa-bars item"></i>
+        <img class="img-profile" src="./images/담곰2.png" />
       </div>
     </nav>
-    <main>
+    <main class="main">
       <img class="logo"
       src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png"/
       >
-      <div>
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <input />
-        <i class="fa-sharp fa-solid fa-keyboard"></i>
-        <i class="fa-solid fa-microphone"></i>
-        <i class="fa-solid fa-camera"></i>
+      <div class="input-wrapper">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input class="input-box" />
+        <i class="fa-sharp fa-solid fa-keyboard keyboard-icon"></i>
+        <i class="fa-solid fa-microphone mic-icon"></i>
+        <i class="fa-solid fa-camera camera-icon"></i>
       </div>
-      <div>
-        <button>Google 검색</button>
-        <button>I'm Feeling Lucky</button>
+      <div class="btn-wrapper">
+        <button class="btn-style">Google 검색</button>
+        <button class="btn-style">I'm Feeling Lucky</button>
       </div>
     </main>
-    <footer>
-      <div>대한민국</div>
-      <div>
+    <footer class="footer-wrapper">
+      <div class="footer-frist">대한민국</div>
+      <div class="footer-second">
         <div>
-          <a href="#">광고</a>
-          <a href="#">비즈니스</a>
-          <a href="#">검색의 원리</a>
+          <a class="footer-item" href="#">광고</a>
+          <a class="footer-item" href="#">비즈니스</a>
+          <a class="footer-item" href="#">검색의 원리</a>
         </div>
         <div>
-          <a href="#">개인정보처리방침</a>
-          <a href="#">약관</a>
-          <a href="#">설정</a>
+          <a class="footer-item" href="#">개인정보처리방침</a>
+          <a class="footer-item" href="#">약관</a>
+          <a class="footer-item" href="#">설정</a>
         </div>
       </div>
     </footer>
